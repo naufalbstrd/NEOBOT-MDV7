@@ -13,8 +13,8 @@ let pendaftar = JSON.parse(fs.readFileSync('./database/user.json'))
 let balance = JSON.parse(fs.readFileSync('./database/deposit/saldo.json'));
 
 exports.menuall = (sender, prefix, pushname, ucapanWaktu, tanggal, jam, isOwner) => {
-return `*OTHERS*
- • bot
+return `*BOT*
+ • others
  • wame
 
 *MAIN MENU*
